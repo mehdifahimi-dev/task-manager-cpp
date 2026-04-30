@@ -5,6 +5,7 @@
 int main () {
 
     TaskManager task;
+    task.loadFromFile();
     int index;
     int option = 0;
 

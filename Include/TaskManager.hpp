@@ -14,5 +14,7 @@ class TaskManager {
     bool isEmpty() const;
     void completeTask(int index);
     void deleteTask(int index);
+    void loadFromFile();
+    void saveToFile();
 };
 #endif
